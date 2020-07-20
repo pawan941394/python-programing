@@ -1,0 +1,41 @@
+print("hello")
+print("what is your name !")
+name = str(input(""))
+print("welcome to this engineering calculatter ", name)
+print("which opeartions do you want \n1: plus\n2: divide\n3: multiplay")
+choice = int(input("please enter your chooice ! "))
+
+if choice == 1:
+    print(name,"you choice plus opeartion !")
+    print("please enter your numbers ")
+    a = int(input("your first number is ! "))
+    b = int(input("your second number is ! "))
+    p = a + b
+    if (a == 56 and b == 9):
+        print("your answer is ! 77")
+    else:
+     print("your answer is ! ",p)
+
+
+if choice == 2:
+    print(name,"you choice plus opeartion !")
+    print("please enter your numbers ")
+    a = int(input("your first number is ! "))
+    b = int(input("your second number is ! "))
+    p = a / b
+    if (a == 56 and b == 6):
+        print("your answer is ! 4")
+    else:
+     print("your answer is ! ",p)
+
+
+if choice == 3:
+    print(name,"you choice plus opeartion !")
+    print("please enter your numbers ")
+    a = int(input("your first number is ! "))
+    b = int(input("your second number is ! "))
+    p = a * b
+    if (a == 45 and b == 3):
+        print("your answer is ! 555")
+    else:
+     print("your answer is ! ",p)
