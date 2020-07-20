@@ -1,3 +1,3 @@
 i am engineering student.
-age = 19
-here you can upload codeing execrise and help eachother
+
+here you can upload codeing execrise and help each other.
