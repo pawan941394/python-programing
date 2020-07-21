@@ -1,0 +1,6 @@
+def function(a,b):
+    """whatever writen in this line is called the docstring (this is simillar to the comment but we can not print comment but we can easily print docstring  """
+    print(a+b)
+#print(function(4,6))
+print(function.__doc__)
+# so this is called docstring
