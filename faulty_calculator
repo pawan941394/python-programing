@@ -2,10 +2,14 @@ print("hello")
 print("what is your name !")
 name = str(input(""))
 print("welcome to this engineering calculatter ", name)
-print("which opeartions do you want \n1: plus\n2: divide\n3: multiplay")
-choice = int(input("please enter your chooice ! "))
 
-if choice == 1:
+while(True):
+ print("if you want to exit then type 0 otherwise choose your choice what do you want \n1: plus\n2: divide\n3: multiplay\n4:exit")
+ for i in range(True):
+  choice = int(input("please enter your chooice ! "))
+  if (choice == 4):
+      exit()
+  if (choice == 1):
     print(name,"you choice plus opeartion !")
     print("please enter your numbers ")
     a = int(input("your first number is ! "))
@@ -15,10 +19,8 @@ if choice == 1:
         print("your answer is ! 77")
     else:
      print("your answer is ! ",p)
-
-
-if choice == 2:
-    print(name,"you choice plus opeartion !")
+  if (choice == 2):
+    print(name,"you choice divide opeartion !")
     print("please enter your numbers ")
     a = int(input("your first number is ! "))
     b = int(input("your second number is ! "))
@@ -29,8 +31,8 @@ if choice == 2:
      print("your answer is ! ",p)
 
 
-if choice == 3:
-    print(name,"you choice plus opeartion !")
+  if (choice == 3):
+    print(name,"you choice multiplay opeartion !")
     print("please enter your numbers ")
     a = int(input("your first number is ! "))
     b = int(input("your second number is ! "))
